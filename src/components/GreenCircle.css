@@ -1,0 +1,14 @@
+/* GreenCircle.css */
+.green-circle-container {
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+    transform: translate(30%, 18%);
+    z-index: 0; /* Ensure it’s behind other elements */
+    opacity: 0.5; /* Adjust opacity as needed */
+}
+
+.green-circle-image {
+    width: 500px; /* Adjust size as needed */
+    height: auto;
+}

@@ -1,0 +1,13 @@
+/* OrangeCircle.css */
+.orange-circle-container {
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+    transform: translate(30%, 18%);
+    opacity: 0.6; /* Adjust opacity as needed */
+}
+
+.orange-circle-image {
+    width: 450px; /* Adjust size as needed */
+    height: auto;
+}

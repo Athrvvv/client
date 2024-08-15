@@ -1,0 +1,15 @@
+.doctor-container {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    transform: translate(30%, 18%);
+
+}
+
+.doctor-image {
+    width: 450px;
+    height: auto;
+    object-fit: cover;
+
+    
+}

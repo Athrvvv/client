@@ -1,0 +1,14 @@
+.stethoscope-container {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust the centering */
+    opacity: 0.1;
+    overflow: hidden; /* Hide any overflow */
+}
+
+.stethoscope-image {
+    width: 350px; /* Width of the image */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure it covers the container */
+}

@@ -1,0 +1,43 @@
+.home-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eafaf1;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-text {
+    max-width: 500px;
+    margin-left: 5%;
+    margin-bottom:10% ;
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.hero-text p {
+    margin: 20px 0;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.appointment-button {
+    background-color: #00b894;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.appointment-button:hover {
+    background-color: #019c74;
+}

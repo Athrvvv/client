@@ -1,0 +1,61 @@
+.contact-us {
+    max-width: 320px; /* Reduced the width */
+    margin: 50px auto;
+    padding: 30px; /* Reduced the padding */
+    background-color: #f1f5f8;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-us h1 {
+    font-size: 1.5rem; /* Slightly smaller font size */
+    color: #000;
+    margin-bottom: 20px; /* Reduced bottom margin */
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #333;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px; /* Slightly smaller padding */
+    margin-bottom: 15px; /* Reduced margin */
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 0.95rem; /* Slightly smaller font size */
+    background-color: #fff;
+}
+
+textarea {
+    height: 100px; /* Reduced height */
+    resize: none; /* Disable resizing */
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 18px; /* Slightly smaller padding */
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
